@@ -8,4 +8,32 @@
     
     import 'relative/path/to/stylesheet.scss';
 
-*/
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+ 
+  .counter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: monospace;
+    background: black;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
